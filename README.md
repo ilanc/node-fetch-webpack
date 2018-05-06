@@ -28,7 +28,7 @@ $ node app.js
   FetchError: [Function: FetchError] }
 success
 
-$ node --experimental-modules  app.mjs
+$ node --experimental-modules app.mjs
 (node:335) ExperimentalWarning: The ESM module loader is experimental.
 { [Function: fetch]
   isRedirect: [Function],
