@@ -1,0 +1,20 @@
+{
+  "name": "node-fetch-webpack",
+  "version": "1.0.0",
+  "description": "prototype",
+  "author": "ilan@spikedata.co.za",
+  "license": "ISC",
+  "scripts": {
+    "build1": "webpack --config webpack.config.js",
+    "build2": "webpack --config webpack.config-mjs.js"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-stage-3": "6.24.1",
+    "node-fetch": "2.1.2",
+    "webpack": "3.4.1"
+  }
+}
